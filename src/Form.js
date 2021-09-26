@@ -10,13 +10,7 @@ export default function Form(props) {
       <form onSubmit={formHandler.bind(this)}>
         <div className="forminp">
           <label>Date of Birth</label>
-          <input
-            type="text"
-            name="dob"
-            placeholder="dd-mm-yyyy"
-            onFocus={(this.type = "date")}
-            onBlur={(this.type = "text")}
-          />
+          <input type="date" name="dob" placeholder="dd-mm-yyyy" />
         </div>
         <br />
 
