@@ -17,9 +17,9 @@ export default function App() {
 
     var dob_str = dob.toString().replaceAll("-", "");
     console.log(dob_str);
-    console.log("rev:" + dob.toString().split("-").reverse().join(""));
+    console.log("rev:" + dob_str.split("").reverse().join(""));
 
-    if (dob_str === dob.toString().split("-").reverse().join("")) {
+    if (dob_str === dob_str.split("").reverse().join("")) {
       pal = true;
     } else {
       pal = false;
