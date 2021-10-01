@@ -1,3 +1,3 @@
-### Cash Register app built in React
+### Find out if a date is a palindrome or not
 
-Visit here : https://cash-regstr.netlify.app/
+Visit here : https://palin-date.netlify.app/
